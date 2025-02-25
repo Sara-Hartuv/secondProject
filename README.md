@@ -12,4 +12,8 @@ my second project
 int x = 0;
 ```
 
+```cpp
+int y = 1;
+```
+
 #### good luck
