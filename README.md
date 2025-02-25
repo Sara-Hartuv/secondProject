@@ -17,3 +17,7 @@ int y = 1;
 ```
 
 #### good luck
+
+```cpp
+char c = 's';
+```
