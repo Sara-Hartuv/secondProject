@@ -13,3 +13,7 @@ int x = 0;
 ```
 
 #### good luck
+
+```cpp
+char c = 's';
+```
