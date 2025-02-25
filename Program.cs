@@ -1,6 +1,11 @@
 # Hello everyone  
+<<<<<<< .mine
 // change from my computer
 //gvyfdtfghj
+=======
+// this is change from github
+
+>>>>>>> .theirs
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore.Storage;
 using Mock;
@@ -14,17 +19,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-//di -database
-builder.Services.AddDbContext<IContext, DataBase>();
-
-//di
-builder.Services.AddServiceExtension();
-
-// enable cors
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy(name: "_myAllowSpecificOrigins",
+builder.Services.AddSwaggerGen(); 
                       policy =>
                       {
                           policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
